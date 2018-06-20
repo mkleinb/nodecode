@@ -14,7 +14,7 @@ runGetRequest();
 function runGetRequest() {
     
     //sample URL.
-    var url = "http://129.157.179.180:3000/shield/33/45/yellow/mkleinb";
+    var url = "http://140.86.15.104:3000/shield/33/45/yellow/mkleinb";
     request(url, function(error, response, body) {
         if(!error) {
             console.log(body);
