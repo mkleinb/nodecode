@@ -15,7 +15,7 @@ function runGetRequest() {
     
     //sample URL.
     y=0;
-    for (y<9) {
+    for (y<=9) {
     var url = "http://140.86.15.104:3000/shield/45/y/yellow/mkleinb";
     y++;
     }
