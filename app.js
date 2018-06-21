@@ -14,11 +14,10 @@ runGetRequest();
 function runGetRequest() {
     
     //sample URL.
-    y=0;
-    for (y<=9) {
-    var url = "http://140.86.15.104:3000/shield/45/y/yellow/mkleinb";
-    y++;
-    }
+    var i;
+    for (i=0;i<10;i++) {
+    var url = "http://140.86.15.104:3000/fighters/45/i/yellow/mkleinb";
+    
     request(url, function(error, response, body) {
         if(!error) {
             console.log(body);
@@ -26,6 +25,7 @@ function runGetRequest() {
             console.log(error);
         }
     });
+    }
 };
 
 //Executes a SQL query
