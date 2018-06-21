@@ -15,7 +15,7 @@ function runGetRequest() {
     
     //sample URL.
     var i;
-    for (i=0;i<9;i++) {
+    for (i=1;i<9;i++) {
     var url = "http://140.86.15.104:3000/fighters/45/i/yellow/mkleinb";
     
     request(url, function(error, response, body) {
